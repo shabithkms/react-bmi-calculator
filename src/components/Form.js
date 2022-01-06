@@ -29,18 +29,20 @@ function Form({ getData }) {
                 value={weight}
                 onChange={(e) => setWeight(e.target.value)}
                 className="form-control"
+                placeholder="Enter your weight in kg"
                 required
               />
             </div>
           </div>
           <div className="col col-sm-6">
             <div className="my-3">
-              <label className="form-label">Hight(m) :</label>
+              <label className="form-label">Height(m) :</label>
               <input
                 type="text"
                 value={height}
                 onChange={(e) => setHeight(e.target.value)}
                 className="form-control"
+                placeholder="Enter your height in meter"
                 required
               />
             </div>
